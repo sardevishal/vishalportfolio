@@ -68,17 +68,21 @@ export function About() {
             initial={{ opacity: 0, x: -50 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 1 }}
-            className="relative"
+            className="relative group cursor-crosshair"
           >
             <div className="relative aspect-[4/5] rounded-none overflow-hidden bg-muted">
               <img
                 src="/vishal.jpg"
                 alt="Vishal Sarde"
-                className="w-full h-full object-cover grayscale transition-all duration-1000"
+                className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000 ease-out"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent" />
+              <div className="absolute inset-0 bg-background/20 group-hover:bg-transparent transition-colors duration-700" />
+
+              <div className="absolute top-0 left-0 bg-accent text-accent-foreground px-6 py-3 text-[9px] uppercase tracking-[0.3em] font-bold opacity-0 group-hover:opacity-100 transition-all duration-500">
+                Full-Stack Developer
+              </div>
             </div>
-            
+
             <motion.div
               initial={{ opacity: 0, y: 40 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -104,7 +108,7 @@ export function About() {
             >
               The Story So Far
             </motion.span>
-            
+
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -121,13 +125,13 @@ export function About() {
               className="space-y-4 text-lg text-muted-foreground leading-relaxed"
             >
               <p>
-                As an Information Technology student and AWS Certified Solutions Architect, 
-                I prioritize building scalable cloud infrastructures and intelligent 
+                As an Information Technology student and AWS Certified Solutions Architect,
+                I prioritize building scalable cloud infrastructures and intelligent
                 Machine Learning systems that excel in performance and security.
               </p>
               <p>
-                From architecting secure cloud environments to building explainable AI, 
-                I bridge the gap between complex engineering and real-world application. 
+                From architecting secure cloud environments to building explainable AI,
+                I bridge the gap between complex engineering and real-world application.
                 Currently based in Pune, India, working with a global perspective.
               </p>
             </motion.div>
