@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { useInView } from "motion/react";
 import { useRef, useState } from "react";
-import { ArrowUpRight, Github, ExternalLink, Trophy } from "lucide-react";
+import { ArrowUpRight, Github, ExternalLink } from "lucide-react";
 
 const projects = [
   {
@@ -125,14 +125,7 @@ const projects = [
   },
 ];
 
-const categories = [
-  "All",
-  "Machine Learning",
-  "Full-Stack Web",
-  "Security Tool",
-  "Cloud",
-  "Python Backend",
-];
+
 
 export function Projects() {
   const [filter, setFilter] = useState("All");
@@ -179,16 +172,14 @@ export function Projects() {
               <button
                 key={cat}
                 onClick={() => setFilter(cat)}
-                className={`group relative text-[10px] uppercase tracking-[0.2em] font-bold transition-colors ${
-                  filter === cat
-                    ? "text-foreground"
-                    : "text-muted-foreground hover:text-foreground"
-                }`}
+                className={`group relative text-[10px] uppercase tracking-[0.2em] font-bold transition-colors ${filter === cat
+                  ? "text-foreground"
+                  : "text-muted-foreground hover:text-foreground"
+                  }`}
               >
                 <span>{cat}</span>
-                <div className={`absolute -bottom-2 left-0 h-px bg-accent transition-all duration-300 ${
-                  filter === cat ? "w-full" : "w-0 group-hover:w-full"
-                }`} />
+                <div className={`absolute -bottom-2 left-0 h-px bg-accent transition-all duration-300 ${filter === cat ? "w-full" : "w-0 group-hover:w-full"
+                  }`} />
               </button>
             ))}
           </motion.div>
@@ -213,7 +204,7 @@ export function Projects() {
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000 ease-out"
                 />
                 <div className="absolute inset-0 bg-background/10 group-hover:bg-transparent transition-colors duration-700" />
-                
+
                 {project.achievement && (
                   <div className="absolute top-0 left-0 bg-accent text-accent-foreground px-6 py-3 text-[9px] uppercase tracking-[0.3em] font-bold">
                     {project.achievement}

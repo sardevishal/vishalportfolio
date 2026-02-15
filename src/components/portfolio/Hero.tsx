@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { ArrowDown, Github, Linkedin, Youtube, Mail } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 export function Hero() {
   const scrollToAbout = () => {
@@ -13,7 +13,7 @@ export function Hero() {
     <section className="relative min-h-screen flex items-center bg-background overflow-hidden pt-20">
       {/* Background decoration */}
       <div className="absolute top-0 right-0 w-1/3 h-full bg-muted/30 -z-0 hidden lg:block" />
-      
+
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-left">
@@ -67,7 +67,7 @@ export function Hero() {
                 <span>Selected Works</span>
                 <div className="relative w-12 h-px bg-accent group-hover:w-24 transition-all duration-500" />
               </button>
-              
+
               <div className="flex items-center gap-6 text-muted-foreground">
                 <a href="https://github.com/sardevishal" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
                   <Github size={18} strokeWidth={1.5} />
@@ -89,21 +89,21 @@ export function Hero() {
               transition={{ duration: 1.2, delay: 0.2 }}
               className="relative aspect-[4/5] w-full max-w-sm bg-muted overflow-hidden"
             >
-               {/* Abstract background element */}
-               <div className="absolute inset-0 bg-gradient-to-tr from-accent/10 to-transparent" />
-               <div className="absolute inset-0 flex items-center justify-center opacity-[0.03]">
-                 <span className="text-[20rem] font-serif italic text-accent select-none">VS</span>
-               </div>
-               
-               <div className="absolute bottom-12 left-12 right-12">
-                 <p className="text-[10px] uppercase tracking-[0.4em] text-muted-foreground mb-4">Focus</p>
-                 <p className="text-xl font-serif italic leading-relaxed">
-                   Cloud Computing<br />
-                   Machine Learning<br />
-                   Creative Development<br />
-                   System Architecture
-                 </p>
-               </div>
+              {/* Abstract background element */}
+              <div className="absolute inset-0 bg-gradient-to-tr from-accent/10 to-transparent" />
+              <div className="absolute inset-0 flex items-center justify-center opacity-[0.03]">
+                <span className="text-[20rem] font-serif italic text-accent select-none">VS</span>
+              </div>
+
+              <div className="absolute bottom-12 left-12 right-12">
+                <p className="text-[10px] uppercase tracking-[0.4em] text-muted-foreground mb-4">Focus</p>
+                <p className="text-xl font-serif italic leading-relaxed">
+                  Cloud Computing<br />
+                  Machine Learning<br />
+                  Creative Development<br />
+                  System Architecture
+                </p>
+              </div>
             </motion.div>
           </div>
         </div>

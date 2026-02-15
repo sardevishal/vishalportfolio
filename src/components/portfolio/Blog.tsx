@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { useInView } from "motion/react";
 import { useRef, useState } from "react";
-import { ArrowUpRight, Calendar, Clock, Tag } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 
 const blogPosts = [
   {
@@ -84,7 +84,8 @@ const blogPosts = [
   },
 ];
 
-const categories = [
+// Categories for filtering
+const projectCategories = [
   "All",
   "Machine Learning",
   "Web Development",
@@ -147,20 +148,18 @@ export function Blog() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="flex flex-wrap gap-x-8 gap-y-4"
           >
-            {categories.map((category) => (
+            {projectCategories.map((category) => (
               <button
                 key={category}
                 onClick={() => setActiveCategory(category)}
-                className={`group relative text-[10px] uppercase tracking-[0.2em] font-bold transition-colors ${
-                  activeCategory === category
+                className={`group relative text-[10px] uppercase tracking-[0.2em] font-bold transition-colors ${activeCategory === category
                     ? "text-foreground"
                     : "text-muted-foreground hover:text-foreground"
-                }`}
+                  }`}
               >
                 <span>{category}</span>
-                <div className={`absolute -bottom-2 left-0 h-px bg-accent transition-all duration-300 ${
-                  activeCategory === category ? "w-full" : "w-0 group-hover:w-full"
-                }`} />
+                <div className={`absolute -bottom-2 left-0 h-px bg-accent transition-all duration-300 ${activeCategory === category ? "w-full" : "w-0 group-hover:w-full"
+                  }`} />
               </button>
             ))}
           </motion.div>
@@ -183,7 +182,7 @@ export function Blog() {
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000 ease-out"
                 />
                 <div className="absolute inset-0 bg-background/10 group-hover:bg-transparent transition-colors duration-700" />
-                
+
                 <div className="absolute top-0 left-0 bg-foreground text-background px-4 py-2 text-[9px] uppercase tracking-[0.2em] font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                   Read Article
                 </div>
