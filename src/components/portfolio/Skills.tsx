@@ -10,6 +10,17 @@ import {
 
 const skillGroups = [
   {
+    title: "AWS Cloud & Infrastructure",
+    icon: Cloud,
+    skills: [
+      { name: "AWS EC2 / S3 / VPC", level: 90 },
+      { name: "AWS IAM / CloudWatch", level: 85 },
+      { name: "Serverless (Lambda)", level: 75 },
+      { name: "Cloud Architecture", level: 88 },
+      { name: "Linux / Shell Scripting", level: 80 },
+    ],
+  },
+  {
     title: "Frontend Development",
     icon: Globe,
     skills: [
@@ -28,17 +39,6 @@ const skillGroups = [
       { name: "MongoDB", level: 85 },
       { name: "MySQL", level: 82 },
       { name: "REST API Design", level: 90 },
-    ],
-  },
-  {
-    title: "AWS Cloud & Infrastructure",
-    icon: Cloud,
-    skills: [
-      { name: "AWS EC2 / S3 / VPC", level: 90 },
-      { name: "AWS IAM / CloudWatch", level: 85 },
-      { name: "Serverless (Lambda)", level: 75 },
-      { name: "Cloud Architecture", level: 88 },
-      { name: "Linux / Shell Scripting", level: 80 },
     ],
   },
   {
