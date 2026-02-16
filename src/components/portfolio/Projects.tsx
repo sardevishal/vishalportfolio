@@ -29,7 +29,7 @@ const projects = [
       "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop",
     tags: ["Next.js", "OpenAI API", "Supabase", "Express", "Node.js"],
     liveUrl: "#",
-    githubUrl: "",
+    githubUrl: "https://github.com/sardevishal",
     featured: true,
   },
   {
@@ -43,7 +43,7 @@ const projects = [
       "https://images.unsplash.com/photo-1544650030-3c51ad3544ef?w=800&h=600&fit=crop",
     tags: ["Flask", "MongoDB", "GridFS", "Python", "REST APIs"],
     liveUrl: "#",
-    githubUrl: "",
+    githubUrl: "https://github.com/sardevishal",
     featured: true,
   },
   {
@@ -57,7 +57,7 @@ const projects = [
       "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&h=600&fit=crop",
     tags: ["PHP", "MySQL", "Android (Java)", "REST APIs", "Web Design"],
     liveUrl: "#",
-    githubUrl: "",
+    githubUrl: "https://github.com/sardevishal",
     featured: true,
   },
   {
@@ -100,7 +100,7 @@ const projects = [
       "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
     tags: ["Python", "scikit-learn", "Data Analytics", "SIH 2025"],
     liveUrl: "#",
-    githubUrl: "",
+    githubUrl: "https://github.com/sardevishal",
     featured: false,
   },
   {
