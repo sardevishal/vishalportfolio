@@ -12,19 +12,17 @@ const skillGroups = [
   {
     title: "Frontend Development",
     icon: Globe,
-    color: "from-blue-500 to-cyan-400",
     skills: [
       { name: "React / Next.js", level: 85 },
       { name: "JavaScript / TypeScript", level: 90 },
       { name: "HTML5 / CSS3", level: 95 },
-      { name: "TailwiCSS", level: 85 },
+      { name: "Tailwind CSS", level: 85 },
       { name: "Framer Motion", level: 80 },
     ],
   },
   {
     title: "Backend Development",
     icon: Database,
-    color: "from-emerald-500 to-teal-400",
     skills: [
       { name: "Node.js / Express", level: 88 },
       { name: "Python / Flask", level: 85 },
@@ -36,7 +34,6 @@ const skillGroups = [
   {
     title: "AWS Cloud & Infrastructure",
     icon: Cloud,
-    color: "from-orange-500 to-amber-400",
     skills: [
       { name: "AWS EC2 / S3 / VPC", level: 90 },
       { name: "AWS IAM / CloudWatch", level: 85 },
@@ -48,7 +45,6 @@ const skillGroups = [
   {
     title: "Development Tools",
     icon: Settings,
-    color: "from-purple-500 to-pink-400",
     skills: [
       { name: "Git / GitHub", level: 92 },
       { name: "Docker / Containerization", level: 70 },
@@ -101,11 +97,11 @@ export function Skills() {
               initial={{ opacity: 0, y: 30 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: groupIndex * 0.1 }}
-              className="relative p-10 bg-muted/20 border border-border/50 backdrop-blur-sm group hover:border-accent/30 transition-all duration-500"
+              className="relative p-10 bg-muted/5 border border-border/50 backdrop-blur-sm group hover:border-accent/30 transition-all duration-500"
             >
               <div className="flex items-center gap-6 mb-12">
-                <div className={`p-4 bg-gradient-to-br ${group.color} text-background`}>
-                  <group.icon size={24} strokeWidth={1.5} />
+                <div className="p-4 bg-background border border-border group-hover:bg-accent group-hover:text-accent-foreground transition-all duration-500">
+                  <group.icon size={24} strokeWidth={1} />
                 </div>
                 <h3 className="text-2xl font-serif text-foreground leading-tight">
                   {group.title}
@@ -123,7 +119,7 @@ export function Skills() {
                         {skill.level}%
                       </span>
                     </div>
-                    <div className="relative h-1 bg-border/30 overflow-hidden">
+                    <div className="relative h-px bg-border/40 overflow-hidden">
                       <motion.div
                         initial={{ scaleX: 0 }}
                         animate={isInView ? { scaleX: skill.level / 100 } : {}}
@@ -132,7 +128,7 @@ export function Skills() {
                           delay: 0.3 + groupIndex * 0.1 + skillIndex * 0.05,
                           ease: [0.22, 1, 0.36, 1],
                         }}
-                        className={`absolute inset-0 bg-gradient-to-r ${group.color} origin-left`}
+                        className="absolute inset-0 bg-accent origin-left"
                       />
                     </div>
                   </div>
