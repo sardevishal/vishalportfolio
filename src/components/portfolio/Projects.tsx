@@ -5,49 +5,71 @@ import { ArrowUpRight, Github, ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    id: 1,
-    title: "SentinelTLS",
-    subtitle: "Encrypted Traffic Threat Detection",
-    category: "Machine Learning",
+    id: 7,
+    title: "AWS Web Infrastructure",
+    subtitle: "Cloud-Based Application Hosting",
+    category: "Cloud & DevOps",
     description:
-      "Developed an ML-based anomaly detection system using Isolation Forest and Random Forest to identify malware and data exfiltration in encrypted network traffic. Achieved 92% detection accuracy and incorporated explainable AI techniques for model transparency.",
+      "Architected and deployed a highly available web infrastructure using AWS EC2, S3, and VPC. Implemented granular access control via IAM, optimized networking with public/private subnets, and established real-time monitoring using CloudWatch for performance and security.",
     image:
-      "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=600&fit=crop",
-    tags: [
-      "Python",
-      "Machine Learning",
-      "Isolation Forest",
-      "Random Forest",
-      "Explainable AI",
-    ],
-    liveUrl: "#",
-    githubUrl: "https://github.com/sardevishal",
-    featured: true,
-  },
-  {
-    id: 2,
-    title: "Student Dropout Predictor",
-    subtitle: "AI-Based Prediction System",
-    category: "Machine Learning",
-    description:
-      "Designed an explainable ML prototype for SIH 2025 to identify at-risk students using academic and behavioral indicators. Applied SHAP for transparent predictions and proposed offline-first deployment (SMS/IVR) for rural accessibility.",
-    image:
-      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=600&fit=crop",
-    tags: ["Python", "scikit-learn", "SHAP", "Machine Learning", "SIH 2025"],
+      "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=600&fit=crop",
+    tags: ["AWS EC2", "AWS VPC", "S3", "IAM", "CloudWatch"],
     liveUrl: "#",
     githubUrl: "https://github.com/sardevishal",
     featured: true,
   },
   {
     id: 3,
-    title: "Resume Relevance Checker",
-    subtitle: "Automated AI-Powered HR Tool",
+    title: "Resume Relevance AI",
+    subtitle: "Automated HR-Tech Solution",
     category: "Full-Stack Web",
     description:
-      "AI-powered HR-Tech platform built with Next.js, Express, OpenAI API, and Supabase to semantically match resumes with job descriptions, generating relevance scores, missing skill analysis, and ATS-friendly improvement suggestions.",
+      "Developed an AI-powered HR platform that semantically analyzes resumes against job descriptions. Built with Next.js and OpenAI API, it generates weighted relevance scores, skill gap analysis, and ATS-friendly enhancement suggestions to streamline recruitment.",
     image:
       "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop",
-    tags: ["Next.js", "Express", "OpenAI API", "Supabase", "LLM"],
+    tags: ["Next.js", "OpenAI API", "Supabase", "Express", "Node.js"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/sardevishal",
+    featured: true,
+  },
+  {
+    id: 5,
+    title: "SPPU Study Material Portal",
+    subtitle: "Centralized Academic Archive",
+    category: "Full-Stack Web",
+    description:
+      "Created a comprehensive academic portal using Flask and MongoDB GridFS for secure storage and semester-wise categorization of PDFs. Features high-speed search, role-based authentication, and a responsive UI optimized for both web and mobile access.",
+    image:
+      "https://images.unsplash.com/photo-1544650030-3c51ad3544ef?w=800&h=600&fit=crop",
+    tags: ["Flask", "MongoDB", "GridFS", "Python", "REST APIs"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/sardevishal",
+    featured: true,
+  },
+  {
+    id: 6,
+    title: "Alumni Connect Network",
+    subtitle: "Professional Networking Platform",
+    category: "Full-Stack Web",
+    description:
+      "A dynamic professional networking portal built with PHP and MySQL, facilitating secure student-alumni interactions. Developed both the web platform and the Android client, integrating them via custom-built REST APIs for a seamless cross-platform experience.",
+    image:
+      "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&h=600&fit=crop",
+    tags: ["PHP", "MySQL", "Android (Java)", "REST APIs", "Web Design"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/sardevishal",
+    featured: true,
+  },
+  {
+    id: 1,
+    title: "SentinelTLS",
+    subtitle: "Secure Traffic Analysis",
+    category: "Security & ML",
+    description:
+      "Engineered an anomaly detection system focused on encrypted network traffic. Using Isolation Forest and Random Forest algorithms, it identifies potential malware and data exfiltration patterns with 92% accuracy, leveraging Explainable AI (SHAP) for transparent threat reporting.",
+    image:
+      "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=600&fit=crop",
+    tags: ["Python", "Machine Learning", "Cybesecurity", "Isolation Forest", "SHAP"],
     liveUrl: "#",
     githubUrl: "https://github.com/sardevishal",
     featured: true,
@@ -55,84 +77,54 @@ const projects = [
   {
     id: 4,
     title: "Website Safety Verifier",
-    subtitle: "Blockchain-Based Security Tool",
-    category: "Security Tool",
+    subtitle: "Blockchain-Enhanced Security",
+    category: "Security & Web",
     description:
-      "Developed a browser extension using AI and blockchain to verify website security and detect credential misuse. Secured 5th rank among national participants in Build-A-Thon hackathon.",
+      "A browser-integrated security tool that uses AI and blockchain verification to ensure website authenticity and prevent credential theft. This project earned 5th rank nationally at the Build-A-Thon Hackathon for its innovative approach to user safety.",
     image:
-      "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&h=600&fit=crop",
-    tags: ["AI", "Blockchain", "Browser Extension", "Security"],
+      "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=600&fit=crop",
+    tags: ["Blockchain", "Browser Extension", "AI Security", "Web APIs"],
     liveUrl: "#",
     githubUrl: "https://github.com/sardevishal",
     featured: true,
     achievement: "🏆 5th Rank - Build-A-Thon National Hackathon",
   },
   {
-    id: 5,
-    title: "SPPU Study Portal",
-    subtitle: "Academic Material Management System",
-    category: "Full-Stack Web",
+    id: 2,
+    title: "Student Dropout Predictor",
+    subtitle: "Predictive Academic Analytics",
+    category: "Data Science & Web",
     description:
-      "Flask + MongoDB (GridFS) academic portal for semester-wise PDF storage, search, and retrieval with user authentication, metadata handling, and secure file downloads. Extended to mobile with Android-friendly layouts.",
+      "Designed a predictive modeling system for SIH 2025 to identify at-risk students using behavioral and academic data. Implemented a dashboard for real-time risk assessment and designed an offline SMS/IVR alert system for low-connectivity regions.",
     image:
-      "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&h=600&fit=crop",
-    tags: ["Flask", "MongoDB", "GridFS", "REST APIs", "Python"],
-    liveUrl: "#",
-    githubUrl: "https://github.com/sardevishal",
-    featured: true,
-  },
-  {
-    id: 6,
-    title: "Alumni Connect Portal",
-    subtitle: "Web & Mobile Platform",
-    category: "Full-Stack Web",
-    description:
-      "PHP-MySQL portal enabling secure alumni-student interaction with authentication, dynamic database queries, and session management. Also built Android-side UI and logic with REST API integration.",
-    image:
-      "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&h=600&fit=crop",
-    tags: ["PHP", "MySQL", "Android", "Java", "REST APIs"],
-    liveUrl: "#",
-    githubUrl: "https://github.com/sardevishal",
-    featured: false,
-  },
-  {
-    id: 7,
-    title: "AWS Web Deployment",
-    subtitle: "Cloud-Based Application Hosting",
-    category: "Cloud",
-    description:
-      "Deployed a cloud-hosted web application using EC2 and VPC networking. Implemented access control using IAM, designed VPC architecture with public/private subnets, and monitored performance using CloudWatch.",
-    image:
-      "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=600&fit=crop",
-    tags: ["AWS EC2", "VPC", "IAM", "CloudWatch", "S3"],
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+    tags: ["Python", "scikit-learn", "Data Analytics", "SIH 2025"],
     liveUrl: "#",
     githubUrl: "https://github.com/sardevishal",
     featured: false,
   },
   {
     id: 8,
-    title: "Backend Utility Scripts",
-    subtitle: "Python Automation Tools",
-    category: "Python Backend",
+    title: "Automation Utility Suite",
+    subtitle: "Backend Workflow Optimization",
+    category: "Python Development",
     description:
-      "Implemented Python scripts for file processing, API testing, and database operations to automate repetitive backend tasks. Includes data validation, optimization, and Flask API integration utilities.",
+      "A collection of specialized Python scripts designed to automate complex backend workflows, including heavy file processing, API stress testing, and database migrations. Optimized for speed and reliability in production environments.",
     image:
-      "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600&fit=crop",
-    tags: ["Python", "Flask", "Automation", "REST APIs", "MySQL"],
+      "https://images.unsplash.com/photo-1518433278981-16757d477c78?w=800&h=600&fit=crop",
+    tags: ["Python", "Automation", "REST APIs", "MySQL", "Optimization"],
     liveUrl: "#",
     githubUrl: "https://github.com/sardevishal",
     featured: false,
   },
 ];
 
-
-
 export function Projects() {
   const [filter, setFilter] = useState("All");
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
-  const categories = ["All", ...new Set(projects.map((p) => p.category))];
+  const categories = ["All", ...Array.from(new Set(projects.map((p) => p.category)))];
   const filteredProjects =
     filter === "All"
       ? projects
