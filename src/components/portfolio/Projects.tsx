@@ -5,7 +5,7 @@ import { ArrowUpRight, Github, ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    id: 7,
+    id: 1,
     title: "AWS Web Infrastructure",
     subtitle: "Cloud-Based Application Hosting",
     category: "Cloud & DevOps",
@@ -15,11 +15,11 @@ const projects = [
       "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=600&fit=crop",
     tags: ["AWS EC2", "AWS VPC", "S3", "IAM", "CloudWatch"],
     liveUrl: "#",
-    githubUrl: "https://github.com/sardevishal",
+    githubUrl: "",
     featured: true,
   },
   {
-    id: 3,
+    id: 2,
     title: "Resume Relevance AI",
     subtitle: "Automated HR-Tech Solution",
     category: "Full-Stack Web",
@@ -29,11 +29,11 @@ const projects = [
       "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop",
     tags: ["Next.js", "OpenAI API", "Supabase", "Express", "Node.js"],
     liveUrl: "#",
-    githubUrl: "https://github.com/sardevishal",
+    githubUrl: "",
     featured: true,
   },
   {
-    id: 5,
+    id: 3,
     title: "SPPU Study Material Portal",
     subtitle: "Centralized Academic Archive",
     category: "Full-Stack Web",
@@ -43,11 +43,11 @@ const projects = [
       "https://images.unsplash.com/photo-1544650030-3c51ad3544ef?w=800&h=600&fit=crop",
     tags: ["Flask", "MongoDB", "GridFS", "Python", "REST APIs"],
     liveUrl: "#",
-    githubUrl: "https://github.com/sardevishal",
+    githubUrl: "",
     featured: true,
   },
   {
-    id: 6,
+    id: 4,
     title: "Alumni Connect Network",
     subtitle: "Professional Networking Platform",
     category: "Full-Stack Web",
@@ -57,11 +57,11 @@ const projects = [
       "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&h=600&fit=crop",
     tags: ["PHP", "MySQL", "Android (Java)", "REST APIs", "Web Design"],
     liveUrl: "#",
-    githubUrl: "https://github.com/sardevishal",
+    githubUrl: "",
     featured: true,
   },
   {
-    id: 1,
+    id: 5,
     title: "SentinelTLS",
     subtitle: "Secure Traffic Analysis",
     category: "Security & ML",
@@ -71,11 +71,11 @@ const projects = [
       "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=600&fit=crop",
     tags: ["Python", "Machine Learning", "Cybesecurity", "Isolation Forest", "SHAP"],
     liveUrl: "#",
-    githubUrl: "https://github.com/sardevishal",
+    githubUrl: "https://github.com/sardevishal/SentinelTLS",
     featured: true,
   },
   {
-    id: 4,
+    id: 6,
     title: "Website Safety Verifier",
     subtitle: "Blockchain-Enhanced Security",
     category: "Security & Web",
@@ -85,12 +85,12 @@ const projects = [
       "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=600&fit=crop",
     tags: ["Blockchain", "Browser Extension", "AI Security", "Web APIs"],
     liveUrl: "#",
-    githubUrl: "https://github.com/sardevishal",
+    githubUrl: "https://github.com/sardevishal/Personal_Data_Guardian",
     featured: true,
     achievement: "🏆 5th Rank - Build-A-Thon National Hackathon",
   },
   {
-    id: 2,
+    id: 7,
     title: "Student Dropout Predictor",
     subtitle: "Predictive Academic Analytics",
     category: "Data Science & Web",
@@ -100,7 +100,7 @@ const projects = [
       "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
     tags: ["Python", "scikit-learn", "Data Analytics", "SIH 2025"],
     liveUrl: "#",
-    githubUrl: "https://github.com/sardevishal",
+    githubUrl: "",
     featured: false,
   },
   {
@@ -114,7 +114,7 @@ const projects = [
       "https://images.unsplash.com/photo-1518433278981-16757d477c78?w=800&h=600&fit=crop",
     tags: ["Python", "Automation", "REST APIs", "MySQL", "Optimization"],
     liveUrl: "#",
-    githubUrl: "https://github.com/sardevishal",
+    githubUrl: "https://github.com/sardevishal/ECOFLOW",
     featured: false,
   },
 ];
@@ -204,14 +204,16 @@ export function Projects() {
                 )}
 
                 <div className="absolute bottom-8 right-8 flex gap-4 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out">
-                  <a
-                    href={project.githubUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-14 h-14 bg-background/90 backdrop-blur-sm flex items-center justify-center text-foreground hover:bg-foreground hover:text-background transition-all duration-300"
-                  >
-                    <Github size={18} strokeWidth={1.5} />
-                  </a>
+                  {project.githubUrl && (
+                    <a
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-14 h-14 bg-background/90 backdrop-blur-sm flex items-center justify-center text-foreground hover:bg-foreground hover:text-background transition-all duration-300"
+                    >
+                      <Github size={18} strokeWidth={1.5} />
+                    </a>
+                  )}
                   <a
                     href={project.liveUrl}
                     target="_blank"
