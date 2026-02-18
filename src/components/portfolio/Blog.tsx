@@ -34,7 +34,8 @@ const blogPosts = [
     id: 3,
     title: "Building AI-Powered HR-Tech with Next.js and OpenAI",
     excerpt:
-      "How I built an automated resume relevance check system using Next.js, Express, and OpenAI API to semantically match resumes with job descriptions and generate ATS-friendly feedback.",
+      /*"How I built an automated resume relevance check system using Next.js, Express, and OpenAI API to semantically match resumes with job descriptions and generate ATS-friendly feedback.", */
+      "I talk about how I used AI to help HR teams find the right candidates for any job faster.",
     category: "Web Development",
     date: "2024-11-10",
     readTime: "9 min read",
@@ -47,7 +48,8 @@ const blogPosts = [
     id: 4,
     title: "Flask + MongoDB: Building Scalable Academic Portals",
     excerpt:
-      "A comprehensive guide to building the SPPU Study Material Portal using Flask, MongoDB GridFS for file storage, and implementing secure authentication and metadata handling.",
+      /*"A comprehensive guide to building the SPPU Study Material Portal using Flask, MongoDB GridFS for file storage, and implementing secure authentication and metadata handling.", */
+      "A guide on how I built a fast and easy website for students to find their study materials.",
     category: "Web Development",
     date: "2024-10-22",
     readTime: "10 min read",
@@ -73,7 +75,8 @@ const blogPosts = [
     id: 6,
     title: "Network Traffic Analysis with Wireshark: A Practical Guide",
     excerpt:
-      "Learn how to analyze network traffic, identify suspicious patterns, and detect potential security threats using Wireshark and Nmap from my experience at 1Stop.ai.",
+      /*      "Learn how to analyze network traffic, identify suspicious patterns, and detect potential security threats using Wireshark and Nmap from my experience at 1Stop.ai.", */
+      "I share a practical guide on how to watch over a network and find potential security threats.",
     category: "Cybersecurity",
     date: "2024-09-18",
     readTime: "8 min read",
@@ -138,7 +141,8 @@ export function Blog() {
               transition={{ duration: 0.8, delay: 0.1 }}
               className="text-5xl sm:text-7xl font-serif text-foreground leading-tight"
             >
-              Sharing <span className="italic text-accent">insights</span> on the future of <span className="italic text-accent">technology</span>.
+              {/*Sharing <span className="italic text-accent">insights</span> on the future of <span className="italic text-accent">technology</span>. */}
+              Sharing my <span className="italic text-accent">thoughts</span> and stories about <span className="italic text-accent">modern technology</span>.
             </motion.h2>
           </div>
 
@@ -153,8 +157,8 @@ export function Blog() {
                 key={category}
                 onClick={() => setActiveCategory(category)}
                 className={`group relative text-[10px] uppercase tracking-[0.2em] font-bold transition-colors ${activeCategory === category
-                    ? "text-foreground"
-                    : "text-muted-foreground hover:text-foreground"
+                  ? "text-foreground"
+                  : "text-muted-foreground hover:text-foreground"
                   }`}
               >
                 <span>{category}</span>

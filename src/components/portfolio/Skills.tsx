@@ -24,7 +24,7 @@ const skillGroups = [
     title: "Frontend Development",
     icon: Globe,
     skills: [
-      { name: "React / Next.js", level: 85 },
+      { name: "React.js", level: 85 },
       { name: "JavaScript", level: 90 },
       { name: "HTML5", level: 95 },
       { name: "CSS3", level: 85 },
@@ -35,7 +35,7 @@ const skillGroups = [
     icon: Database,
     skills: [
       { name: "Node.js", level: 88 },
-      { name: "Python / Flask", level: 85 },
+      { name: "Python", level: 85 },
       { name: "MongoDB", level: 85 },
       { name: "MySQL", level: 82 },
       { name: "REST API Design", level: 90 },
@@ -46,10 +46,11 @@ const skillGroups = [
     icon: Settings,
     skills: [
       { name: "Git / GitHub", level: 92 },
-      { name: "Docker / Containerization", level: 70 },
-      { name: "Postman / API Testing", level: 88 },
-      { name: "Vercel / Netlify", level: 90 },
-      { name: "CI/CD Pipelines", level: 75 },
+      { name: "Docker", level: 70 },
+      { name: "Postman", level: 88 },
+      { name: "Vercel", level: 85 },
+      { name: "Netlify", level: 70 },
+      { name: "CI/CD Pipelines", level: 70 },
     ],
   },
 ];

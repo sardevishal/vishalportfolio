@@ -115,7 +115,8 @@ export function Contact() {
               transition={{ delay: 0.1 }}
               className="text-5xl sm:text-7xl font-serif text-foreground leading-tight mb-12"
             >
-              Let's create something <span className="text-accent italic">extraordinary</span> together.
+              {/* Let's create something <span className="text-accent italic">extraordinary</span> together. */}
+              Let's work together to build something <span className="text-accent italic">great</span>.
             </motion.h2>
 
             <div className="space-y-12">
@@ -234,7 +235,7 @@ export function Contact() {
                   required
                   rows={4}
                   className="w-full bg-transparent border-b border-border py-4 text-foreground focus:outline-none focus:border-accent transition-colors placeholder:text-muted-foreground/30 resize-none"
-                  placeholder="Tell me about your project..."
+                  placeholder="How can I help you?..."
                 />
               </div>
 
