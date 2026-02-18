@@ -48,7 +48,7 @@ export function Hero() {
               className="max-w-md text-lg text-muted-foreground leading-relaxed mb-12"
             >
               Building <span className="text-white italic">smart cloud systems</span> and
-              <span className="text-white italic"> beautiful websites</span> that are easy for everyone to use.
+              <span className="text-white italic"> beautiful websites</span> that are elegant user experiences.
             </motion.p>
 
             <motion.div

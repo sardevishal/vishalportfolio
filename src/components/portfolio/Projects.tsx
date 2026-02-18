@@ -10,7 +10,7 @@ const projects = [
     subtitle: "Cloud-Based Application Hosting",
     category: "Cloud & DevOps",
     description:
-      "I built a secure and reliable web system using AWS cloud tools. I organized the network and set up real-time monitoring to make sure the website stays fast and safe from online threats.",
+      "Architected and deployed a highly available web infrastructure using AWS EC2, S3, and VPC. Implemented granular access control via IAM, optimized networking with public/private subnets, and established real-time monitoring using CloudWatch for performance and security.",
     image:
       "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=600&fit=crop",
     tags: ["AWS EC2", "AWS VPC", "S3", "IAM", "CloudWatch"],
@@ -24,6 +24,7 @@ const projects = [
     subtitle: "Automated HR-Tech Solution",
     category: "Full-Stack Web",
     description:
+      /*"Developed an AI-powered HR platform that semantically analyzes resumes against job descriptions. Built with Next.js and OpenAI API, it generates weighted relevance scores, skill gap analysis, and ATS-friendly enhancement suggestions to streamline recruitment.", */
       "I built a smart AI tool for HR that automatically compares resumes to job descriptions. It helps teams find the best candidates faster by scoring their skills and suggesting ways to improve their resumes.",
     image:
       "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop",
@@ -38,7 +39,7 @@ const projects = [
     subtitle: "Centralized Academic Archive",
     category: "Full-Stack Web",
     description:
-      "A fast and easy-to-use website for students to find and download study materials. I built it with a secure database and a search system that works perfectly on both computers and mobile phones.",
+      "Created a comprehensive academic portal using Flask and MongoDB GridFS for secure storage and semester-wise categorization of PDFs. Features high-speed search, role-based authentication, and a responsive UI optimized for both web and mobile access.",
     image:
       "https://images.unsplash.com/photo-1544650030-3c51ad3544ef?w=800&h=600&fit=crop",
     tags: ["Flask", "MongoDB", "GridFS", "Python", "REST APIs"],
@@ -52,7 +53,7 @@ const projects = [
     subtitle: "Professional Networking Platform",
     category: "Full-Stack Web",
     description:
-      "A social networking site designed for students to connect with college alumni for career advice. It includes a mobile app and a secure web platform where users can chat and share information safely.",
+      "A dynamic professional networking portal built with PHP and MySQL, facilitating secure student-alumni interactions. Developed both the web platform and the Android client, integrating them via custom-built REST APIs for a seamless cross-platform experience.",
     image:
       "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&h=600&fit=crop",
     tags: ["PHP", "MySQL", "Android (Java)", "REST APIs", "Web Design"],
@@ -66,7 +67,7 @@ const projects = [
     subtitle: "Secure Traffic Analysis",
     category: "Security & ML",
     description:
-      "A security system that watches over hidden network traffic. It uses smart AI to find potential viruses or hackers with high accuracy, helping businesses stay safe from invisible online attacks.",
+      "Engineered an anomaly detection system focused on encrypted network traffic. Using Isolation Forest and Random Forest algorithms, it identifies potential malware and data exfiltration patterns with 92% accuracy, leveraging Explainable AI (SHAP) for transparent threat reporting.",
     image:
       "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=600&fit=crop",
     tags: ["Python", "Machine Learning", "Cybesecurity", "Isolation Forest", "SHAP"],
@@ -80,7 +81,7 @@ const projects = [
     subtitle: "Blockchain-Enhanced Security",
     category: "Security & Web",
     description:
-      "A browser tool that uses blockchain and AI to check if a website is safe to use. It helps prevent hackers from stealing passwords and personal info, and won 5th rank in a national competition.",
+      "A browser-integrated security tool that uses AI and blockchain verification to ensure website authenticity and prevent credential theft. This project earned 5th rank nationally at the Build-A-Thon Hackathon for its innovative approach to user safety.",
     image:
       "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=600&fit=crop",
     tags: ["Blockchain", "Browser Extension", "AI Security", "Web APIs"],
@@ -95,7 +96,7 @@ const projects = [
     subtitle: "Predictive Academic Analytics",
     category: "Data Science & Web",
     description:
-      "A data science project that helps schools find students who might drop out early. It uses a smart dashboard to show which students need extra support and can even send alerts to parents via SMS.",
+      "Designed a predictive modeling system for SIH 2025 to identify at-risk students using behavioral and academic data. Implemented a dashboard for real-time risk assessment and designed an offline SMS/IVR alert system for low-connectivity regions.",
     image:
       "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
     tags: ["Python", "scikit-learn", "Data Analytics", "SIH 2025"],
@@ -109,7 +110,7 @@ const projects = [
     subtitle: "Backend Workflow Optimization",
     category: "Python Development",
     description:
-      "A set of custom computer programs I wrote to handle boring and repetitive tasks automatically. These tools help speed up work by processing files and testing systems much faster than a human could.",
+      "A collection of specialized Python scripts designed to automate complex backend workflows, including heavy file processing, API stress testing, and database migrations. Optimized for speed and reliability in production environments.",
     image:
       "https://images.unsplash.com/photo-1518433278981-16757d477c78?w=800&h=600&fit=crop",
     tags: ["Python", "Automation", "REST APIs", "MySQL", "Optimization"],

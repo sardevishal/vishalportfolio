@@ -80,6 +80,14 @@ export function About() {
 
               <div className="absolute top-0 left-0 bg-accent text-accent-foreground px-6 py-3 text-[9px] uppercase tracking-[0.3em] font-bold opacity-0 group-hover:opacity-100 transition-all duration-500">
                 Full-Stack Developer
+                <motion.span
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={isInView ? { opacity: 1, y: 0 } : {}}
+                  transition={{ duration: 0.6 }}
+                  className="text-accent text-xs uppercase tracking-[0.3em] font-bold mb-4 block"
+                >
+                  AWS Certified Solutions Architect
+                </motion.span>
               </div>
             </div>
 
@@ -115,6 +123,7 @@ export function About() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-5xl sm:text-6xl font-serif text-foreground mb-6 leading-tight"
             >
+              {/*Blending technical <span className="italic text-accent">precision</span> with creative <span className="italic text-accent">vision</span>. */}
               Building <span className="italic text-accent">reliable</span> technology with <span className="italic text-accent">creative</span> ideas.
             </motion.h2>
 
@@ -125,14 +134,14 @@ export function About() {
               className="space-y-4 text-lg text-muted-foreground leading-relaxed"
             >
               <p>
-                I am an Information Technology student and AWS Certified Solutions Architect.
-                I focus on building secure cloud systems and smart AI tools that work fast
-                and stay reliable for any business.
+                As an Information Technology student and AWS Certified Solutions Architect.
+                I prioritize building scalable cloud infrastructures and intelligent,
+                Smart AI tools that work fast and stay reliable for any business.
               </p>
               <p>
-                From setting up safe cloud networks to building smart apps, I enjoy
-                turning complex technical problems into simple, useful tools.
-                I'm currently based in Pune, India, and love working on projects that make a difference.
+                From architecting secure cloud environments to building explainable AI,
+                I bridge the gap between complex engineering and real-world application.
+                Currently based in Pune, India, working with a global perspective.
               </p>
             </motion.div>
 
