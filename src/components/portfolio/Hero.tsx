@@ -47,8 +47,8 @@ export function Hero() {
               transition={{ duration: 0.8, delay: 0.3 }}
               className="max-w-md text-lg text-muted-foreground leading-relaxed mb-12"
             >
-              Bridging the gap between <span className="text-white italic">complex machine learning</span> architectures and
-              <span className="text-white italic"> elegant user experiences</span> for global clients.
+              Building <span className="text-white italic">smart cloud systems</span> and
+              <span className="text-white italic"> beautiful websites</span> that are easy for everyone to use.
             </motion.p>
 
             <motion.div
@@ -99,9 +99,9 @@ export function Hero() {
                 <p className="text-[10px] uppercase tracking-[0.4em] text-muted-foreground mb-4">Focus</p>
                 <p className="text-xl font-serif italic leading-relaxed">
                   Cloud Computing<br />
-                  Machine Learning<br />
-                  Creative Development<br />
-                  System Architecture
+                  Modern Web Apps<br />
+                  AI & Smart Systems<br />
+                  Secure Networks
                 </p>
               </div>
             </motion.div>

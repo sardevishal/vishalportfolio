@@ -11,7 +11,7 @@ const experiences = [
     location: "Remote",
     period: "March 2025 – April 2025",
     description:
-      "Analyzed network traffic and assisted in incident response and vulnerability assessments. Contributed to system hardening and security improvement initiatives.",
+      "I worked on watching network traffic and helped find security weak spots. I also worked on making systems stronger and safer from online attacks.",
     achievements: [
       "Analyzed network traffic using Wireshark and Nmap",
       "Assisted in incident response and vulnerability assessments",
@@ -25,7 +25,7 @@ const experiences = [
     location: "Solapur, Maharashtra",
     period: "June 2023 – July 2023",
     description:
-      "Built Android application modules using Java and Android Studio. Implemented UI components, navigation flows, and integrated REST APIs with backend systems.",
+      "I developed parts of mobile apps for Android phones. I created the screens that users see, set up how they move through the app, and connected the app to online data sources.",
     achievements: [
       "Built Android application modules using Java and Android Studio",
       "Implemented UI components, navigation flows, and form handling",
@@ -40,7 +40,7 @@ const experiences = [
     location: "Pune, Maharashtra",
     period: "August 2025 – 2026",
     description:
-      "Hands-on training covering AWS core services, cloud networking, security, monitoring, and basic serverless concepts.",
+      "Hands-on training where I learned how to use AWS cloud tools to build websites, manage security, and monitor how systems are working.",
     achievements: [
       "Launched and managed Linux EC2 instances with key pairs and security groups",
       "Designed VPC architecture with public/private subnets and Internet Gateway",

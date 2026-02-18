@@ -115,7 +115,7 @@ export function About() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-5xl sm:text-6xl font-serif text-foreground mb-6 leading-tight"
             >
-              Blending technical <span className="italic text-accent">precision</span> with creative <span className="italic text-accent">vision</span>.
+              Building <span className="italic text-accent">reliable</span> technology with <span className="italic text-accent">creative</span> ideas.
             </motion.h2>
 
             <motion.div
@@ -125,14 +125,14 @@ export function About() {
               className="space-y-4 text-lg text-muted-foreground leading-relaxed"
             >
               <p>
-                As an Information Technology student and AWS Certified Solutions Architect,
-                I prioritize building scalable cloud infrastructures and intelligent
-                Machine Learning systems that excel in performance and security.
+                I am an Information Technology student and AWS Certified Solutions Architect.
+                I focus on building secure cloud systems and smart AI tools that work fast
+                and stay reliable for any business.
               </p>
               <p>
-                From architecting secure cloud environments to building explainable AI,
-                I bridge the gap between complex engineering and real-world application.
-                Currently based in Pune, India, working with a global perspective.
+                From setting up safe cloud networks to building smart apps, I enjoy
+                turning complex technical problems into simple, useful tools.
+                I'm currently based in Pune, India, and love working on projects that make a difference.
               </p>
             </motion.div>
 
