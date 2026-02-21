@@ -31,6 +31,29 @@ export function Footer() {
             <Heart className="w-3.5 h-3.5 text-accent fill-accent/20" />
           </p>
 
+
+          {/* Quick Links */}
+          {/* 
+          <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-10">
+            {["About", "Projects", "Experience", "Contact"].map((link) => (
+              <a
+                key={link}
+                href={`#${link.toLowerCase()}`}
+                onClick={(e) => {
+                  e.preventDefault();
+                  document
+                    .querySelector(`#${link.toLowerCase()}`)
+                    ?.scrollIntoView({ behavior: "smooth" });
+                }}
+                className="text-sm text-white hover:text-foreground transition-colors duration-300 relative group"
+              >
+                {link}
+                <span className="absolute -bottom-1 left-0 w-0 h-px bg-accent transition-all duration-300 group-hover:w-full" />
+              </a>
+            ))}
+          </div>
+          */}
+
           {/* Back to Top */}
           <motion.button
             onClick={scrollToTop}
@@ -42,6 +65,6 @@ export function Footer() {
           </motion.button>
         </div>
       </div>
-    </footer>
+    </footer >
   );
 }
