@@ -28,7 +28,7 @@ export function Footer() {
           </div>
 
           {/* Copyright - Centered */}
-          <div className="flex justify-center order-3 md:order-2">
+          <div className="flex justify-center order-3 md:order-2 whitespace-nowrap">
             <p className="text-accent text-sm tracking-wide flex items-center gap-1.5 text-center">
               © {currentYear} Vishal Sarde. All rights reserved. Made with
               <Heart className="w-3.5 h-3.5 text-accent fill-accent/20" />
