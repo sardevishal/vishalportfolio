@@ -16,12 +16,12 @@ export const Route = createFileRoute("/_public/")({
   head: () => ({
     meta: [
       {
-        title: "Vishal Sarde | Full-Stack Developer & Security Researcher",
+        title: "Vishal Sarde | Cloud Architect & Web Developer",
       },
       {
         name: "description",
         content:
-          "Portfolio of Vishal Sarde - Full-Stack Developer & Security Researcher specialized in building secure, scalable applications and elegant digital experiences.",
+          "Portfolio of Vishal Sarde - Cloud Architect & Web Developer specialized in building secure, scalable applications and elegant digital experiences.",
       },
     ],
   }),

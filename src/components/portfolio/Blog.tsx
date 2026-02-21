@@ -12,8 +12,7 @@ const blogPosts = [
     category: "Machine Learning",
     date: "2024-12-15",
     readTime: "8 min read",
-    image:
-      "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=500&fit=crop",
+    image: "/assets/blog/blog-1.jpg",
     tags: ["Machine Learning", "Python", "scikit-learn"],
     featured: true,
   },
@@ -25,8 +24,7 @@ const blogPosts = [
     category: "Machine Learning",
     date: "2024-11-28",
     readTime: "7 min read",
-    image:
-      "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=500&fit=crop",
+    image: "/assets/blog/blog-2.jpg",
     tags: ["SHAP", "Explainable AI", "Python"],
     featured: true,
   },
@@ -39,8 +37,7 @@ const blogPosts = [
     category: "Web Development",
     date: "2024-11-10",
     readTime: "9 min read",
-    image:
-      "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=500&fit=crop",
+    image: "/assets/blog/blog-3.jpg",
     tags: ["Next.js", "OpenAI", "Supabase"],
     featured: false,
   },
@@ -53,8 +50,7 @@ const blogPosts = [
     category: "Web Development",
     date: "2024-10-22",
     readTime: "10 min read",
-    image:
-      "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&h=500&fit=crop",
+    image: "/assets/blog/blog-4.jpg",
     tags: ["Flask", "MongoDB", "Python"],
     featured: false,
   },
@@ -66,8 +62,7 @@ const blogPosts = [
     category: "Career",
     date: "2024-10-05",
     readTime: "5 min read",
-    image:
-      "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&h=500&fit=crop",
+    image: "/assets/blog/blog-5.jpg",
     tags: ["Blockchain", "Hackathon", "Career"],
     featured: false,
   },
@@ -80,8 +75,7 @@ const blogPosts = [
     category: "Cybersecurity",
     date: "2024-09-18",
     readTime: "8 min read",
-    image:
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=500&fit=crop",
+    image: "/assets/blog/blog-6.jpg",
     tags: ["Wireshark", "Nmap", "Security"],
     featured: false,
   },

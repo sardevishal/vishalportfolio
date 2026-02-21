@@ -79,15 +79,7 @@ export function About() {
               <div className="absolute inset-0 bg-background/20 group-hover:bg-transparent transition-colors duration-700" />
 
               <div className="absolute top-0 left-0 bg-accent text-accent-foreground px-6 py-3 text-[9px] uppercase tracking-[0.3em] font-bold opacity-0 group-hover:opacity-100 transition-all duration-500">
-                Full-Stack Developer
-                <motion.span
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={isInView ? { opacity: 1, y: 0 } : {}}
-                  transition={{ duration: 0.6 }}
-                  className="text-accent text-xs uppercase tracking-[0.3em] font-bold mb-4 block"
-                >
-                  AWS Certified Solutions Architect
-                </motion.span>
+                Cloud Architect & Web Developer
               </div>
             </div>
 
