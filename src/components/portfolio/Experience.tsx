@@ -80,12 +80,12 @@ const experiences = [
 
 const certifications = [
   {
-    name: "SQL Intermediate",
-    issuer: "HackerRank",
-    year: "2024",
+    name: "AWS Certified solutions architect – associate",
+    issuer: "Amazon Web Services (AWS)",
+    year: "2025",
   },
   {
-    name: "SQL Basic",
+    name: "SQL Intermediate",
     issuer: "HackerRank",
     year: "2024",
   },
