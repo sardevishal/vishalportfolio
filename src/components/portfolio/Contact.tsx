@@ -116,7 +116,7 @@ export function Contact() {
               className="text-5xl sm:text-7xl font-serif text-foreground leading-tight mb-12"
             >
               {/* Let's create something <span className="text-accent italic">extraordinary</span> together. */}
-              Let's work together to build something <span className="text-accent italic">great</span>.
+              Let's work <span className="text-accent italic">together</span> to build something <span className="text-accent italic">great</span>.
             </motion.h2>
 
             <div className="space-y-12">
